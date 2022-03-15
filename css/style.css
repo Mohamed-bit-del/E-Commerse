@@ -114,6 +114,7 @@ body {
 .img-container {
   position: relative;
   overflow: hidden;
+  max-height: 190px;
 }
 .bag-btn {
   position: absolute;
@@ -154,6 +155,10 @@ body {
   margin-top: 1rem;
   letter-spacing: var(--mainSpacing);
   text-align: center;
+}
+
+.product h3:last-child {
+  color: var(--primaryColor)
 }
 
 .product h4 {
